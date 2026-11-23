@@ -11,7 +11,6 @@ int main(void) {
     printf("積: %d * %d = %d\n", a, b, a * b);
     printf("商: %d / %d = %d\n", a, b, a / b);
     printf("剰余: %d %% %d = %d\n", a, b, a % b);
-    printf("=== Calculation End ===\n");
 
     return 0;
 }
