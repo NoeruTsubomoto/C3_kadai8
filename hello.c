@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+                
 int main(void) {
     int a = 10;
     int b = 5;
@@ -10,6 +10,7 @@ int main(void) {
     printf("差: %d - %d = %d\n", a, b, a - b);
     printf("積: %d * %d = %d\n", a, b, a * b);
     printf("商: %d / %d = %d\n", a, b, a / b);
+    printf("剰余: %d %% %d = %d\n", a, b, a % b);
 
     return 0;
 }
